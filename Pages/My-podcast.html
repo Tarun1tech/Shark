@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Podcast</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+<body>
+	<section class="header use-hdr">
+		<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-light bg_own">
+		  <div class="container-fluid">
+		    <a class="navbar-brand" href="../index.html"><img src="../images/updated-logo.png" width="80"></a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+		      <ul class="navbar-nav mrt mb-2 mb-lg-0">
+		        <li class="nav-item">
+		          <a class="nav-link active" aria-current="page" href="../index.html">My Podcasts</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="#">New</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="pages/discover.html" tabindex="-1" aria-disabled="true">Discover</a>
+		        </li><li class="nav-item">
+		          <a style="border-right: none !important;" class="nav-link" href="#" tabindex="-1" aria-disabled="true">Blog</a>
+		        </li>
+		      </ul>		      
+		      <div class="sos d-flex">
+		      	<div class="user-pic">
+		      	<div class="dropdown">
+				  <a style="color: #000;" class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"><img src="../images/user-pic.jpg"></a>
+
+				  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				    <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
+				    <li><a class="dropdown-item" href="#">Help Center</a></li>
+				    <li><a class="dropdown-item" href="#">Report</a></li>
+				    <li><a class="dropdown-item" href="#">Logout</a></li>
+				  </ul>		      	
+		      </div>
+		    </div>		    
+		  </div>
+		</nav>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="d-block usr-srch">
+		    		<form class="d-flex src-frm">
+				        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+				        <button class="btn my-btn-outline" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+			      	</form>
+			    	
+			    </div>
+					
+				</div>
+				
+			</div>
+		</div>
+		
+	</section>
+
+
+
+	<section class="my-pod">
+		<div class="container">
+			<div class="row py-5 bordr">
+				<div class="col-md-6">
+					<h3 class="heading">My Podcasts</h3>
+					
+				</div>
+				<div class="col-md-6 text-end float-end">
+					<div class="view">
+				        <a href="#" class="icon-grid"></a>
+				     <a href="#" class="icon-list"></a>
+				        
+				    </div>
+					<!-- <a href="#"><i class="fa fa-th-large" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-sort-amount-asc" aria-hidden="true"></i></a> -->
+					
+				</div>
+
+				<div class="wrapper">
+				    
+				    
+				    <div class="products category">
+				        <ul class="">
+				            <li>
+				                <div class="itemIMG">
+				                    <img src="../images/simg.webp">
+				                </div>
+				                <div class="itemTitle"> <a href="#" class="sub-heading">Mega Corp</a>
+				 				<span class="text">25 Minutes</span>
+				 
+				                    <p class="des text">Detailed item information</p>
+				                    <p class="text pt2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				                </div>
+				            </li>
+
+
+				            <li>
+				                <div class="itemIMG">
+				                    <img src="../images/simg1.webp">
+				                </div>
+				                <div class="itemTitle"> <a href="#" class="sub-heading">American Redical</a>
+				 				<span class="text">26 Minutes</span>
+				 
+				                    <p class="des text">Detailed item information</p>
+				                    <p class="text pt2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				                </div>
+				            </li>
+
+
+				            <li>
+				                <div class="itemIMG">
+				                    <img src="../images/simg2.webp">
+				                </div>
+				                <div class="itemTitle"> <a href="#" class="sub-heading">What will</a>
+				 				<span class="text">12 Minutes</span>
+				 
+				                    <p class="des text">Detailed item information</p>
+				                    <p class="text pt2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				                </div>
+				            </li>
+
+
+				            <li>
+				                <div class="itemIMG">
+				                    <img src="../images/simg3.webp">
+				                </div>
+				                <div class="itemTitle"> <a href="#" class="sub-heading">The Always Sunny Podcast</a>
+				 				<span class="text">17 Minutes</span>
+				 
+				                    <p class="des text">Detailed item information</p>
+				                    <p class="text pt2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				                </div>
+				            </li>
+
+
+				            <li>
+				                <div class="itemIMG">
+				                    <img src="../images/simg4.webp">
+				                </div>
+				                <div class="itemTitle"> <a href="#" class="sub-heading">Harsh Reality:The Story of mirac</a>
+				 				<span class="text">12 Minutes</span>
+				 
+				                    <p class="des text">Detailed item information</p>
+				                    <p class="text pt2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				                </div>
+				            </li>
+
+
+				            <li>
+				                <div class="itemIMG">
+				                    <img src="../images/simg5.webp">
+				                </div>
+				                <div class="itemTitle"> <a href="#" class="sub-heading">Soulmate</a>
+				 				<span class="text">13 Minutes</span>
+				 
+				                    <p class="des text">Detailed item information</p>
+				                    <p class="text pt2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				                </div>
+				            </li>
+
+
+				            <li>
+				                <div class="itemIMG">
+				                    <img src="../images/simg6.webp">
+				                </div>
+				                <div class="itemTitle"> <a href="#" class="sub-heading">A Slight Change of Plans</a>
+				 				<span class="text">21 Minutes</span>
+				 
+				                    <p class="des text">Detailed item information</p>
+				                    <p class="text pt2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				                </div>
+				            </li>
+
+
+				            <li>
+				                <div class="itemIMG">
+				                    <img src="../images/simg7.webp">
+				                </div>
+				                <div class="itemTitle"> <a href="#" class="sub-heading">Ghostrider</a>
+				 				<span class="text">27 Minutes</span>
+				 
+				                    <p class="des text">Detailed item information</p>
+				                    <p class="text pt2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				                </div>
+				            </li>
+
+
+				            <li>
+				                <div class="itemIMG">
+				                    <img src="../images/simg8.webp">
+				                </div>
+				                <div class="itemTitle"> <a href="#" class="sub-heading">Mine Heart</a>
+				 				<span class="text">6 Minutes</span>
+				 
+				                    <p class="des text">Detailed item information</p>
+				                    <p class="text pt2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				                </div>
+				            </li>
+
+
+				            <li>
+				                <div class="itemIMG">
+				                    <img src="../images/simg9.webp">
+				                </div>
+				                <div class="itemTitle"> <a href="#" class="sub-heading">How to build a Happy Life</a>
+				 				<span class="text">28 Minutes</span>
+				 
+				                    <p class="des text">Detailed item information</p>
+				                    <p class="text pt2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				                </div>
+				            </li>
+
+
+				            <li>
+				                <div class="itemIMG">
+				                    <img src="../images/simg10.webp">
+				                </div>
+				                <div class="itemTitle"> <a href="#" class="sub-heading">Multiverse</a>
+				 				<span class="text">12 Minutes</span>
+				 
+				                    <p class="des text">Detailed item information</p>
+				                    <p class="text pt2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				                </div>
+				            </li>
+
+
+				            <li>
+				                <div class="itemIMG">
+				                    <img src="../images/simg11.webp">
+				                </div>
+				                <div class="itemTitle"> <a href="#" class="sub-heading">The Heavan</a>
+				 				<span class="text">14 Minutes</span>
+				 
+				                    <p class="des text">Detailed item information</p>
+				                    <p class="text pt2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				                </div>
+				            </li>
+
+
+				            <li>
+				                <div class="itemIMG">
+				                    <img src="../images/simg12.webp">
+				                </div>
+				                <div class="itemTitle"> <a href="#" class="sub-heading">Smartless</a>
+				 				<span class="text">19 Minutes</span>
+				 
+				                    <p class="des text">Detailed item information</p>
+				                    <p class="text pt2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				                </div>
+				            </li>
+				            
+				 
+				        </ul>
+
+				    </div>
+			    	<div class="advert">
+			        	<img class="pt-5" src="../images/advert.png">
+			        	
+			        </div>
+				</div>
+ 
+				
+			</div>
+			
+		</div>
+		
+	</section>
+
+
+
+
+
+	<script type="text/javascript">
+		// Code By Webdevtrick ( https://webdevtrick.com)
+		$(".view a").on('click', function(){
+		    $('.products ul').toggleClass('list');
+		    return false;
+		});
+	</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
